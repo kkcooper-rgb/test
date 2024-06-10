@@ -1,0 +1,18 @@
+<view class="container">
+  <scroll-view 
+    scroll-x="{{true}}" 
+    style="white-space: nowrap;" 
+    bindscroll="onScroll" 
+    bindtouchend="onTouchEnd" 
+    class="scroll-view"
+    scroll-with-animation="{{true}}"
+    scroll-into-view="{{toView}}">
+    
+    <view id="item1" class="scroll-item">Item 1</view>
+    <view id="item2" class="scroll-item">Item 2</view>
+    <view id="item3" class="scroll-item">Item 3</view>
+    <view id="item4" class="scroll-item">Item 4</view>
+    <view id="item5" class="scroll-item">Item 5</view>
+    
+  </scroll-view>
+</view>

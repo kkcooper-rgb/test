@@ -1,0 +1,5 @@
+{
+  "usingComponents": {
+    "cascader":"/compontents/cascader/index"
+  }
+}
