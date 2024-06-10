@@ -25,7 +25,7 @@
 
 
 </view>
-<cascader options="{{options}}"></cascader>
+
 <view class="qrcode0">
     <image mode="widthFix" src="{{qrcode0}}"></image>
 </view>
