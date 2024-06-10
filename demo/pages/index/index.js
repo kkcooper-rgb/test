@@ -1,5 +1,5 @@
 const qrcode = require('../../lib/qrcode/index');
-
+// 1
 Page({
     data: {
         qrcode0: '',
