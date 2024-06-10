@@ -1,6 +1,4 @@
-view {
-    margin: 0 auto 30rpx;
-}
+
 
 .qrcode0 image {
     width: 400rpx;
@@ -32,6 +30,7 @@ view {
   position: absolute;
   top: 100%;
   left: 0;
+  width: 646rpx;
   border: 1px solid #ddd;
   background-color: #fff;
   z-index: 10;
@@ -39,7 +38,7 @@ view {
 }
 
 .cascader-column {
-  flex: 1;
+  /* flex: 1; */
   border-right: 1px solid #ddd;
   max-height: 200px;
   overflow-y: auto;
